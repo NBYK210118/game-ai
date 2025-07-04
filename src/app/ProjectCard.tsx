@@ -23,6 +23,7 @@ export default function ProjectCard({ project }: { project: Project }) {
           alt={project.title}
           width={120}
           height={90}
+          placeholder="blur"
           className="object-cover rounded"
         />
       </div>

@@ -260,6 +260,7 @@ export default function Page() {
           alt={activeTab}
           fill
           className="object-cover"
+          placeholder="blur"
           unoptimized
         />
         <div className="absolute inset-0 bg-black/30 flex items-center justify-center">

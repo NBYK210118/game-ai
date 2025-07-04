@@ -19,6 +19,7 @@ export default function CollaboratorsSection({ logos, activeTab }: Props) {
               alt={`logo-${idx}`}
               width={size}
               height={size}
+              placeholder='blur'
               className="object-contain rounded"
             />
           </div>

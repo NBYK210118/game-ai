@@ -49,6 +49,7 @@ export default function GameAIProjectCard({ project }: { project: GameAIProject 
                 alt={`${project.title} 이미지 ${current + 1}`}
                 fill
                 className="object-cover rounded"
+                placeholder="blur"
                 unoptimized
               />
             </div>
